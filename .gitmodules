@@ -1,0 +1,3 @@
+[submodule "Plugins/ECABridge"]
+	path = Plugins/ECABridge
+	url = https://github.com/ibrews/ECABridge.git

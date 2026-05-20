@@ -1,0 +1,457 @@
+{
+  "FileVersion": 3,
+  "Version": 74,
+  "VersionName": "1.0.74",
+  "FriendlyName": "Agent Integration Kit",
+  "Description": "Connect to AI coding agents via the Agent Client Protocol (ACP). Supports Claude Code, Gemini CLI, OpenRouter (built-in), and any ACP-compatible agent.",
+  "Category": "Editor",
+  "CreatedBy": "Betide Studio",
+  "CreatedByURL": "https://betide.studio",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "HasExplicitPlatforms": true,
+  "SupportedTargetPlatforms": [
+    "Win64",
+    "Mac",
+    "Linux"
+  ],
+  "FabURL": "com.epicgames.launcher://ue/Fab/product/b4f03b65-7d8b-47f3-aeab-a23284295242",
+  "Modules": [
+    {
+      "Name": "AgentIntegrationKit",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "PostEngineInit",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_PoseSearch",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_Niagara",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_ControlRig",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_IKRig",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_StateTree",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_EnhancedInput",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_GameplayAbilities",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_Chooser",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_SmartObjects",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_PCG",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_EQS",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_Paper2D",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_Water",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_LiveLink",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_MassAI",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_MovieRenderPipeline",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_Python",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_Interchange",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_NDisplay",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_Dataflow",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_GeometryScripting",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_MetaHuman",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_ChaosFracture",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "AIK_ChaosOutfit",
+      "Type": "EditorNoCommandlet",
+      "LoadingPhase": "None",
+      "PlatformAllowList": [
+        "Win64",
+        "Mac",
+        "Linux"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayTagsEditor",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "Metasound",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "CommonUI",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "GeometryScripting",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "WorldPartitionHLODUtilities",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "PoseSearch",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "Niagara",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "ControlRig",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "RigVM",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "IKRig",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "FullBodyIK",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "StateTree",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "PropertyBindingUtils",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "Chooser",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "SmartObjects",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "PCG",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "EnvironmentQueryEditor",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "Paper2D",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "Water",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "LiveLink",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "ZoneGraph",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "MassGameplay",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "MassCrowd",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "MovieRenderPipeline",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "Interchange",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "nDisplay",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "Dataflow",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "MetaHumanCharacter",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "MetaHumanSDK",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "Fracture",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "ChaosOutfitAsset",
+      "Enabled": true,
+      "Optional": true
+    },
+    {
+      "Name": "ChaosClothAsset",
+      "Enabled": true,
+      "Optional": true
+    }
+  ],
+  "EngineVersion": "5.7.0"
+}
